@@ -74,7 +74,7 @@ This ELK server is configured to monitor the following machines:
 Filebeat has been installed on these machines.
 
 Filebeat allows us to collect the following information from each machine:
-- Filebeat collects log data which shows us 
+- Filebeat collects log data which we can examine in kibana
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned (such the jump box): 
