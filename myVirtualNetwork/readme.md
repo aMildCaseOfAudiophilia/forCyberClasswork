@@ -82,9 +82,9 @@ Filebeat allows us to collect the following information from each machine:
 - Filebeat collects log data which we can examine in kibana
 
 ### Using the Playbook
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned (such the jump box): 
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned (such as the jump box): 
 
 SSH into the control node and follow the steps below:
 - Copy the playbook file to /etc/ansible/
 - Update the hosts file to include the group for your elk machine and its ip address.
-- Run the playbook, and navigate to your elk machine= to check that the installation worked as expected.
+- Run the playbook, and navigate to your elk machine to check that the installation worked as expected.
